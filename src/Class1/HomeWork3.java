@@ -24,7 +24,6 @@ public class HomeWork3 {
         System.out.println("account balance is " + acctBalance);
         System.out.println("does the sun raise from the west ? " + sunRiseFromWest);
         System.out.println("name initials are " + firstNameInitial + lastNameInitial);
-
     }
 
 }

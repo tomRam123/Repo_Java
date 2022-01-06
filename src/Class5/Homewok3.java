@@ -17,7 +17,7 @@ public class Homewok3 {
         String sentence1 = "Hello dear, how are you doing?";
         int sentence1Length = sentence1.length();
 
-        int results = sentence1.length()>=10?100:150;
+        int results = sentence1.length() >= 10 ? 100 : 150;
 
 
         System.out.println("sentence1 = " + sentence1);
@@ -33,10 +33,10 @@ public class Homewok3 {
 
         String sentence2 = "Health was Earlier said to Be the ability of the body functioning WelL.";
         String sentence2InLowerCase = sentence2.toLowerCase(Locale.ROOT);
-        System.out.println(  "   ");
+        System.out.println("   ");
         System.out.println("sentence2 -> " + sentence2);
         System.out.println("replacing all a's with the letter z in sentence2.....");
-        System.out.println(sentence2InLowerCase.replace("a","z" ));
+        System.out.println(sentence2InLowerCase.replace("a", "z"));
         System.out.println("  ");
 
 
@@ -53,24 +53,14 @@ public class Homewok3 {
 
         boolean sentence2StartWithHealth = sentence2InLowerCase.startsWith("health");
         boolean sen2ContainsBody = sentence2InLowerCase.contains("body");
-        String [] sentence2Split = sentence2.split(" ");
+        String[] sentence2Split = sentence2.split(" ");
 
 
-
-        System.out.println("sentence2 -> " + sentence2);
+        System.out.println("sentence2 -> " + sentence2.length());
         System.out.println("does sentence2 start with the word health? " + sentence2StartWithHealth);
         System.out.println("the length of sentence 2 = " + sentence2.length());
-        System.out.println("does sentence2 contain the word body? " + sen2ContainsBody );
-
-
-
-
-
-
-
-
-
-
+        System.out.println("does sentence2 contain the word body? " + sen2ContainsBody);
+        System.out.println("the beginning index of the word body = " + sentence2.indexOf("body"));
 
     }
 }
